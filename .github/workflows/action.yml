@@ -12,7 +12,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.CUSTOM_TOKEN }}
-      - uses: actions/setup-node@v2.1.5
+      - uses: Tahir-yamin/top-github-users-action@feature/add-repos-column
         with:
           node-version: 14.17.0
       - uses: gayanvoice/top-github-users-action@master
